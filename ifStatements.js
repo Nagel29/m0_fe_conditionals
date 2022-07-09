@@ -61,5 +61,8 @@ else {console.log("I don't have enough money for a gumball")};
 // Experiment with manipulating the value held within both variables
 // to make sure all above conditions output what you expect.
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
+
+if (cupsOfFlour >= 2 && hasSauce === true) {console.log("I can make pizza")}
+else {console.log("I cannot make pizza")};
