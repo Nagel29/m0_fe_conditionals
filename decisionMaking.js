@@ -3,9 +3,9 @@
 // Spend some time changing the variables and running the file to see how the story changes.
 
 
-var doorChoice = 1;
+var doorChoice = 2;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -35,9 +35,25 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+// It is determining what the value of the variable "bearClothing" should be, based on the value of doorChoice.
+// If the doorChoice is strictly equal to 1, then bearClothing is hat.
+// If the doorChoice is anything other than 1, then the bearClothing is scarf.
+
 // 2. What variable has a new value assigned to it after the first if statement executes?
+// bearClothing
+
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+// scarf
+
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+// An if statement is being used to determine which sentence (using string interpolation for 1 and 2) should be the result.
+
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+// It doesn't change the final outcome that prints because there is no console.log or other printing option being used.
+// If console.log was being used, it would result in "You run as fast as you can into the next room. It's full of snakes!"
+
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+// Again, it wont print, but it would be "You tell the bear the hat is too small and it starts to cry!"
+
 // 7. What is your favorite ending?
+// Who wouldn't want to be a bear's best friend??
