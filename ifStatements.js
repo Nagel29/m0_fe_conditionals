@@ -29,7 +29,6 @@ if (weather === "sunny") {
 // to print something other than 'coat'
 
 
-##################
 // Using the numQuarters variable defined below, determine
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
