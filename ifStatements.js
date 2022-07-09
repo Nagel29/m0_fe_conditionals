@@ -28,7 +28,6 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
 
-
 // Using the numQuarters variable defined below, determine
 // if you have enough money to buy a gumball. A gumball costs
 // two quarters.
@@ -42,9 +41,10 @@ if (weather === "sunny") {
 // to make sure both conditions can be achieved.
 
 numQuarters = 0
+gumball = 2
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numquarters >= gumball) {console.log("I have enough money for a gumball")}
+else {console.log("I don't have enough money for a gumball")};
 
 
 // #####################
