@@ -43,7 +43,7 @@ if (weather === "sunny") {
 numQuarters = 0
 gumball = 2
 
-if (numquarters >= gumball) {console.log("I have enough money for a gumball")}
+if (numQuarters >= gumball) {console.log("I have enough money for a gumball")}
 else {console.log("I don't have enough money for a gumball")};
 
 
