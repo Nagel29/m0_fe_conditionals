@@ -41,7 +41,7 @@ console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
-console.log("Is numberStudents less than or equal to 21?", numberStudents <= 20);
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
@@ -111,4 +111,5 @@ console.log(lovesToPlay || lovesDogPark)
 var puppy = 1
 console.log(lovesToPlay && age <= puppy)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: I'm not sure if I approached this last one correctly, it had me a bit confused. But I assigned "puppy" the value of 1,
+// then checked to see if "age" was less than or equal to "puppy" They're equal, so it resulted in true.
