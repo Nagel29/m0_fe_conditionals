@@ -40,7 +40,7 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-numQuarters = 0
+numQuarters = 3
 gumball = 2
 
 if (numQuarters >= gumball) {console.log("I have enough money for a gumball")}
