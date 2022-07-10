@@ -7,7 +7,7 @@ else if (num % 2 !== 0) {console.log("odd")};
 
 
 //Medium Challenge
-var num2 = 9
+var num2 = 10
 
 if (num2 % 3 === 0 && num2 % 5 === 0){console.log("FizzBuzz")}
 else if (num2 % 3 === 0){console.log("Fizz")}
